@@ -1,0 +1,110 @@
+html{
+
+    font-size: 62.5%;
+    overflow-x: hidden ;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg');
+    background-size: cover; /* This property scales the image to cover the entire container */
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.container {
+    max-width: 600px;
+    margin: 200px auto;
+    padding: 20px;
+    background-color: rgb(233, 232, 222);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: rgb(7, 160, 150);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+}
+edit-button {
+    padding: 5px 10px;
+    background-color: rgb(13, 0, 255);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+}
+archive-button {
+    background-color: #357ddc;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 12px;
+}
+delete-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.completed {
+    background-color: #eaeeb5;
+    text-decoration: line-through;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+
